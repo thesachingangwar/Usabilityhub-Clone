@@ -1,0 +1,189 @@
+/* media quresis for diffrent devices */
+
+
+/* for 991px devices  */
+
+@media  screen and (max-width : 991px  ) {
+
+    .nav-toggle {
+        display: block;
+        margin-right: 20px ;
+        
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .example-area {
+
+        gap: 20px;
+        padding: 40px 10px;
+    }
+
+    .example-card {
+
+        width: calc(50% - 10px);
+        height: 180px;
+        
+     }
+
+     .cta-section {
+        
+        height: 300px;
+        
+    
+    }
+
+    .cta-conatiner {
+        gap: 40px;
+    }
+
+    
+}
+
+
+/* for  767 px  */
+
+@media screen  and (max-width : 767px ) {
+    
+    
+   .primary-btn  {
+
+    width: 100%;
+    text-align: center;
+   }
+
+   .secondary-btn  {
+
+    width: 100%;
+    text-align: center;
+   }
+    
+    
+    .header-section {
+        flex-direction: column-reverse;
+    }
+   
+    .header-right img {
+        width: 100%;
+    }
+    
+
+    .header-left {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .logos {
+        justify-content: space-evenly;
+    }
+
+
+    .features-header {
+
+        padding-top: 40px;
+        
+    
+    }
+
+
+
+    .features-card {
+        
+        
+        min-width: 50%;
+        padding: 10px ;
+        
+    }
+
+    .big-feature-container, #big-feature-box{
+
+        flex-direction: column;
+    }
+
+    .footer-container {
+
+
+        justify-content: space-between;
+        gap: 20px;
+        
+    }
+
+
+}
+
+
+
+/* for mobile devices  */
+
+@media screen and (max-width : 479px) {
+
+h1 {
+    font-size: 2rem;
+}
+    
+
+h2 {
+    font-size: 1.5rem;
+}
+
+
+h3 {
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+ .features-area {
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+.features-card {
+        
+        min-width: 100%;
+        padding: 0px ;
+        
+    }
+
+    .footer-container {
+
+     flex-direction: column;
+     gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-block: 40px;
+}
+
+
+.link-column {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.sub-footer {
+
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sub-footer-menu {
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+}
+
